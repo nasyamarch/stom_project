@@ -75,6 +75,9 @@ a {
     font-size: 10px;
 }
 
+.container_articles {
+    padding-top: 40px;
+}
 
 .bottom {
     display: flex;
