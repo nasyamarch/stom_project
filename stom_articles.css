@@ -71,6 +71,39 @@ a {
 }
 
 .main_page_articles {
-    padding: 0 24px 0 24px;
+    padding: 0 40px 0 40px;
     font-size: 10px;
 }
+
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #b2dad4;
+    width: 100vw;
+}
+
+.footer_logo {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    padding: 12px 24px;
+}
+
+.footer_logo_text{
+    font-size: 15px;
+    padding-left: 40px;
+}
+
+.link_footerToHead {
+    scroll-behavior: smooth;
+    display: flex;
+}
+.footer_arrow {
+    width: 40px;
+    height: 60px;
+    flex-grow: 1;
+    padding-right: 40px;
+    align-self: center;
+}
+
