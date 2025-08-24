@@ -55,7 +55,7 @@ a {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 24px 0 24px;
+    padding: 0 20px 0 20px;
     font-size: 20px;
 }
 
@@ -114,8 +114,6 @@ a {
 }
 
 .article_preview {
-    /*border: 1px solid gray;*/
-    padding: 16px;
     margin-bottom: 20px;
     width: 85vw;
 }
