@@ -67,12 +67,19 @@ a {
 .menu_tags li {
     margin-right: 5px;
     margin-bottom: 5px;
-    padding: 10px 10px;
-    cursor: pointer;
-    background-color: gray;
+    padding: 10px 0;
     border-radius: 8px;
     white-space: nowrap;
 }
+
+.menu_tags li > a, .menu_tags li > span {
+    padding: 10px 10px;
+    cursor: pointer;
+    background-color: gray;
+    /*white-space: nowrap;*/
+    border-radius: 8px;
+}
+
 
 .menu_tags li:hover {
     transform: scale(1.02);
