@@ -8,10 +8,8 @@ body {
 
 header {
     position: relative;
-    /*z-index: 2;*/
     background-color: #b2dad4;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
-    /*padding: 12px 24px;*/
     display: flex;
 }
 
@@ -56,11 +54,13 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding: 0 20px 0 20px;
-    font-size: 20px;
+    font-size: 10px;
+    /*font-weight: bold;*/
 }
 
 .menu_tags > .active:hover {
     background-color: gray;
+    border-radius: 8px;
 
 }
 
@@ -84,6 +84,7 @@ a {
 .menu_tags li:hover {
     transform: scale(1.02);
     background-color: white;
+    user-select: none;
 }
 
 .menu_tags li:active {
@@ -98,7 +99,7 @@ a {
 .menu_tags li.active .tag_link {
     font-weight: bold;
     color: white;
-    background-color: gray;
+    background-color: rgb(60, 60, 60);
     cursor: default;
     pointer-events: none;
 }
@@ -114,10 +115,8 @@ a {
 }
 
 
-
-
-.container_articles {
-    padding-top: 40px;
+.stom_art {
+    padding-top: 10px;
 }
 
 .article_preview {
