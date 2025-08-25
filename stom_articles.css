@@ -120,17 +120,30 @@ a {
 }
 
 .article_preview {
-    margin-bottom: 20px;
-    width: 85vw;
+    margin-bottom: 40px;
+    width: 80vw;
 }
 
 .article_preview > img {
-    /*width: 50vw;*/
-    /*height: auto;*/
-    display: block;
     cursor: pointer;
 
 }
+
+.img {
+    /*display: flex;*/
+    width: 70%;
+    height: auto;
+    /*justify-self: start;*/
+    border-radius: 8px;
+}
+
+.stom_art {
+    display: flex;
+    justify-self: center;
+    padding-bottom: 10px;
+}
+
+
 
 .bottom {
     display: flex;
@@ -163,4 +176,3 @@ a {
     padding-right: 40px;
     align-self: center;
 }
-
