@@ -43,15 +43,11 @@ a {
     margin: 0;
 }
 
-.head_logo_text {
-    /*flex-direction: column;*/
-}
-
 .menu_tags {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 0 20px 0 20px;
+    padding-left: 30px;
     font-size: 3vw;
     /*font-weight: bold;*/
 }
@@ -183,15 +179,21 @@ a {
     text-align: justify;
 }
 
+.article_pulpitis, .article_therapeuticStom, .article_orthodontist, .article_periodontology,
+.article_extraction, .article_implantation, .article_failedImplantation, .article_methods,
+.article_prosthetics, .article_modernStom {
+    margin: 20px 20px;
+}
+
 
 @media (min-width: 768px) and ( max-width: 1024px) {
     .head_logo {
-        padding: 0;
+        padding-left: 40px;
     }
 
     .menu_tags {
         font-size: 2vw;
-        margin-left: 30px;
+        margin-left: 60px;
     }
 
     .article_preview {
@@ -229,16 +231,32 @@ a {
     .footer_arrow {
         padding-right: 60px;
     }
+
+    .article_pulpitis, .article_therapeuticStom, .article_orthodontist, .article_periodontology,
+    .article_extraction, .article_implantation, .article_failedImplantation, .article_methods,
+    .article_prosthetics, .article_modernStom {
+        margin: 40px 60px;
+    }
 }
 
 @media (min-width: 1025px) {
+   .head_logo {
+       padding-left: 14vw;
+   }
+
     .menu_tags {
         font-size: 20px;
+        margin-left: 15vw;
+        margin-right: 80px;
+    }
+
+    .stom_art {
+        font-size: 40px;
     }
 
     .article_preview {
         font-size: 20px;
-        margin: 120px 60px 100px 60px;
+        margin: 120px 15vw 100px 15vw;
         padding: 20px 60px 40px 60px;
     }
 
@@ -249,15 +267,26 @@ a {
     .article_flex {
         display: flex;
         gap: 4vw;
-        font-size: 2vw;
+        font-size: 1.3vw;
     }
 
     .article_innerFlex {
         text-align: justify;
     }
 
-    .link_footerToHead {
-        margin-right: 40px;
+    .footer_logo {
+        padding-left: 15vw;
     }
 
+    .link_footerToHead {
+        margin-right: 12vw;
+    }
+
+
+    .article_pulpitis, .article_therapeuticStom, .article_orthodontist, .article_periodontology,
+    .article_extraction, .article_implantation, .article_failedImplantation, .article_methods,
+    .article_prosthetics, .article_modernStom {
+        margin: 40px 15vw;
+        font-size: 18px;
+    }
 }
