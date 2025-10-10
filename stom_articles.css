@@ -230,8 +230,8 @@ img.imgMain {
 
     }
 
-    .imgMain {
-        margin: 20px 20px 0 0;
+    img.imgMain {
+        margin: 30px 30px 0 0;
     }
 
     .article_innerFlex {
@@ -281,6 +281,11 @@ img.imgMain {
     .img {
         width: 30vw;
         margin: 20px 20px 0 0;
+    }
+
+    img.imgMain {
+        width: 30vw;
+        margin: 30px 30px 20px 0;
     }
 
     .article_innerFlex {
