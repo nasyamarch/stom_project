@@ -39,3 +39,6 @@ window.addEventListener("resize", () => {
         updateSidebarPosition();
     }
 });
+
+window.addEventListener("load", updateSidebarPosition);
+window.addEventListener('resize', updateSidebarPosition);
