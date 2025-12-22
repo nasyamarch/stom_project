@@ -1,4 +1,4 @@
-
+import "./styles/main.css";
 
 const burgerButton = document.querySelector('.burger_button');
 const sidebar = document.querySelector('.sidebar');
@@ -42,3 +42,4 @@ window.addEventListener("resize", () => {
 
 window.addEventListener("load", updateSidebarPosition);
 window.addEventListener('resize', updateSidebarPosition);
+
