@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "./partials/head.njk" %}
+</head>
+<body>
+
+    {% include "./partials/header.njk" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "./partials/footer.njk" %}
+
+    <script type="module" src="/src/index.js"></script>
+</body>
+</html>

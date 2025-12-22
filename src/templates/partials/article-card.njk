@@ -1,0 +1,24 @@
+
+{% macro card(props) %}
+<div class="article_preview">
+    <div class="{{ props.className }}">
+       <a href="{{ props.link }}">
+           <h1 class="caption"><strong>{{ props.title }}</strong></h1>
+       </a>
+
+       <a href="{{ props.link }}">
+           <img class="img imgMain"
+               src="{{ props.image }}"
+               alt="{{ props.imageAlt }}">
+       </a>
+
+       <div class="article_innerFlex">
+           {% if props.author %}
+                <p><strong>{{ props.author | safe }}</strong></p>
+           {% endif %}
+
+           <p>{{ props.text | safe }}</p>
+       </div>
+    </div>
+</div>
+{% endmacro %}

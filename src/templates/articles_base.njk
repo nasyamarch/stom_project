@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "./partials/head.njk" %}
+</head>
+<body>
+
+{% include "./partials/header.njk" %}
+{% include "./partials/sidebar.njk" %}
+
+<main class="main_page_articles">
+    <section class="container_articles">
+        <div class="article">
+
+          {% block content %}{% endblock %}
+
+        </div>
+    </section>
+
+</main>
+
+{% include "./partials/footer.njk" %}
+
+<script type="module" src="/src/index.js"></script>
+
+</body>
+</html>
