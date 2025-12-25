@@ -13,13 +13,35 @@ body {
 }
 
 h1 {
-    margin: 0;
+    margin-bottom: 20px;
     width: fit-content;
     font-size: clamp(20px, 3vw, 40px);
 }
 
-p {
+h2, h3 {
+    margin: 20px 0;
+    font-size: clamp(16px, 2.5vw, 30px);
+}
+
+p, li {
     font-size: clamp(14px, 2vw, 25px);
+}
+
+.article p {
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+hr {
+    margin: 30px 0;
+    clear: both;
+}
+
+li::marker {
+    margin-left: 50px;
 }
 
 .header_head {
@@ -211,10 +233,6 @@ a {
     margin-top: 0;
 }
 
-.article_content > img {
-    margin-right: 20px;
-}
-
 img.imgMain {
     float: left;
     /*margin-bottom: 10px;*/
@@ -226,11 +244,11 @@ img.imgMain {
 
 .img {
     float: left;
-    width: 40vw;
+    width: clamp(80px, 40%, 300px);
     height: auto;
     border-radius: 8px;
     margin-right: 20px;
-    /*margin-bottom: 20px;*/
+    margin-bottom: 10px;
 }
 
 .bottom {
@@ -280,7 +298,7 @@ img.imgMain {
 
 
 .article {
-    margin: 20px 20px;
+    margin: 40px 0;
 }
 
 @media (min-width: 768px) {
@@ -309,8 +327,8 @@ img.imgMain {
 
     .img {
         float: left;
-        width: 40vw;
-        margin: 0 30px 0 0;
+        width: clamp(80px, 40%, 300px);
+        /*margin: 0 20px 0 0;*/
 
     }
 
@@ -331,7 +349,7 @@ img.imgMain {
     }
 
     .article {
-        margin: 40px 60px;
+        /*margin: 40px 60px;*/
     }
 }
 
@@ -343,7 +361,7 @@ img.imgMain {
 
     .img {
         float: left;
-        width: 40vw;
+        width: clamp(80px, 40%, 300px);
         margin: 0 30px 0 0;
 
     }
@@ -366,10 +384,6 @@ img.imgMain {
 
     .footer_arrow {
         padding-right: clamp(200px, 16vw, 300px);
-    }
-
-    .article {
-        margin: 40px 60px;
     }
 }
 
@@ -397,7 +411,7 @@ img.imgMain {
 
 
     .img {
-        width: 30vw;
+        width: clamp(80px, 40%, 350px);
         margin: 0 20px 0 0;
     }
 
@@ -423,8 +437,7 @@ img.imgMain {
     }
 
     .article {
-        margin: 40px 15vw;
-        font-size: 18px;
+        margin: 40px 0 40px 20px;
     }
 }
 
@@ -444,7 +457,7 @@ img.imgMain {
     }
 
     .img {
-        width: 20vw;
+        width: clamp(80px, 40%, 350px);
         margin: 0 20px 20px 0;
     }
 
@@ -466,7 +479,7 @@ img.imgMain {
         font-size: clamp(30px, 2.5vw, 50px);
     }
 
-    p {
+    p, li {
         font-size: clamp(25px, 1.8vw, 35px);
     }
 
