@@ -16,7 +16,7 @@ const pages = fg.sync(["index.html", "articles/**/*.html" ])
 
 
 export default defineConfig({
-    base: "/",
+    base: "./",
     plugins: [
         nunjucks({
             templatesDir: 'src/templates' // путь к твоим шаблонам и страницам
